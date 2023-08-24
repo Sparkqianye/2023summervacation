@@ -49,8 +49,7 @@ int main(void)
 		OLED_ShowSignedNum(2,8,hmcX,5);
 		OLED_ShowSignedNum(3,8,hmcY,5);
 		OLED_ShowSignedNum(4,8,hmcZ,5);
-		
-		
+			
 		double ArcTan;
 		ArcTan=(double)hmcZ/(double)hmcX;
 
